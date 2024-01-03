@@ -1,0 +1,39 @@
+package Day57;
+
+import java.io.*;
+import java.util.StringTokenizer;
+
+public class BOJ11170 {
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+
+        int T = Integer.parseInt(br.readLine());
+        int[][] testCase = new int[T][2];
+        for (int i = 0; i < testCase.length; i++) {
+            StringTokenizer st = new StringTokenizer(br.readLine());
+            for (int j = 0; j < testCase[i].length; j++)
+                testCase[i][j] = Integer.parseInt(st.nextToken());
+        }
+
+        for (int i = 0; i < testCase.length; i++) {
+            int N = testCase[i][0];
+            int M = testCase[i][1];
+
+            int cnt = 0;
+            for (int j = N; j <= M; j++) {
+                char[] numChars = String.valueOf(j).toCharArray();
+                for (char ch : numChars) {
+                    if (ch == '0')
+                        cnt++;
+                }
+            }
+
+            bw.write(cnt + "\n");
+        }
+
+        br.close();
+        bw.flush();
+        bw.close();
+    }
+}
