@@ -1,4 +1,4 @@
-package doit.day196;
+package doIt.day196;
 
 import java.io.*;
 import java.util.StringTokenizer;

@@ -1,4 +1,4 @@
-package doit.day206;
+package doIt.day206;
 
 import java.io.*;
 import java.util.ArrayList;

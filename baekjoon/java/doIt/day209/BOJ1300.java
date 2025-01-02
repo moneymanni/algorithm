@@ -1,4 +1,4 @@
-package doit.day209;
+package doIt.day209;
 
 import java.io.*;
 

@@ -1,4 +1,4 @@
-package doit.day200;
+package doIt.day200;
 
 import java.io.*;
 import java.util.PriorityQueue;

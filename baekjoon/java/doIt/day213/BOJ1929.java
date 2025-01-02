@@ -1,4 +1,4 @@
-package doit.day213;
+package doIt.day213;
 
 import java.io.*;
 import java.util.Arrays;

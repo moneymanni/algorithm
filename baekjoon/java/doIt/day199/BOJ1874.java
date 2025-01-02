@@ -1,4 +1,4 @@
-package doit.day199;
+package doIt.day199;
 
 import java.io.*;
 import java.util.Stack;

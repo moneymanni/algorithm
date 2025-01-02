@@ -1,4 +1,4 @@
-package doit.day198;
+package doIt.day198;
 
 import java.io.*;
 import java.util.HashMap;

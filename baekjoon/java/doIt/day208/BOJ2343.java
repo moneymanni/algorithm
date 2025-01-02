@@ -1,4 +1,4 @@
-package doit.day208;
+package doIt.day208;
 
 import java.util.Scanner;
 
