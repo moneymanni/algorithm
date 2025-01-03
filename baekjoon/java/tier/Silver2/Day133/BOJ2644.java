@@ -52,13 +52,12 @@ public class BOJ2644 {
             }
         }
     }
-}
+    static class Node {
+        int node;
 
-class Node {
-    int node;
+        public Node(int node) {
+            this.node = node;
+        }
 
-    public Node(int node) {
-        this.node = node;
     }
-
 }
