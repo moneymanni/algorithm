@@ -1,6 +1,7 @@
 ### Custom
 .idea
 *.iml
+style_guide.md
 
 ### Java
 # Compiled class file
