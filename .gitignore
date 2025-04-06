@@ -2,6 +2,7 @@
 .idea
 *.iml
 style_guide.md
+test.py
 
 ### Java
 # Compiled class file
